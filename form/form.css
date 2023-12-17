@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url(img/background_space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 350px;
+    width: 400px;
+    font: bold 1.2rem "Kumbh Sans", sans-serif;
+    border: 1px solid #00000054;
+    padding: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0); /* Cor do vidro com opacidade */
+    backdrop-filter: blur(20px); /* Desfoque do vidro */
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+form input{
+    padding: 10px;
+    margin-bottom: 5px;
+
+    border-radius: 10px;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    background-color: rgb(175, 57, 87);
+    color: white;
+    font: bold 1.2rem "Kumbh sans", sans-serif;
+    cursor: pointer;
+}
+
+.userReturn{
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    font: normal 1rem "Kumbh sans", sans-serif;
+    border-radius: 10px;
+}
